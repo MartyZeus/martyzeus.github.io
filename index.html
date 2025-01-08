@@ -62,26 +62,68 @@
 
         /* Change color on hover/mouse-over */
         .navbar a:hover {
-            background-color: #ddd;
+            background-color: #333131;
             /* Grey background color */
             color: black;
             /* Black text color */
+        }
+
+        /* Split the screen in half */
+        .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        /* Control the left side */
+        .left {
+            left: 0;
+            background-color: #111;
+        }
+
+        /* Control the right side */
+        .right {
+            right: 0;
+            background-color: red;
+        }
+
+        /* If you want the content centered horizontally and vertically */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /* Style the image inside the centered container, if needed */
+        .centered img {
+            width: 150px;
+            border-radius: 50%;
         }
     </style>
 </head>
 
 <body>
     <div style="container">
-        <div class="header">
-            <h1>Alexander Martin</h1>
-            <p>A website created by me.</p>
+        <div class="split left">
+            <div class="header">
+                <h1>Alexander Martin</h1>
+                <p>A website created by me.</p>
+            </div>
         </div>
 
-        <div class="navbar">
-            <a href="https://www.linkedin.com/in/alexandermartin2024/">LinkedIn</a>
-            <a href="https://sigmapi-mst.org/">Work Examples</a>
-            <a href="#">Link</a>
-            <a href="#" class="right">Link</a>
+        <div style="split right">
+            <div class="navbar">
+                <a href="https://www.linkedin.com/in/alexandermartin2024/">LinkedIn</a>
+                <a href="https://sigmapi-mst.org/">Work Examples</a>
+                <a href="#">Link</a>
+                <a href="#" class="right">Link</a>
+            </div>
         </div>
     </div>
 </body>
