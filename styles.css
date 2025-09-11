@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    /* Center horizontally */
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.header {
+    padding: 60px 20px 30px 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px 0;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 14px 24px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background: #575757;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    margin-left: auto;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color: #111;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    width: 150px;
+    border

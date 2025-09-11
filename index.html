@@ -2,131 +2,24 @@
 <html lang="en">
 
 <head>
-    <title>Alex Martin Web Page</title>
-    <link rel="icon" type="image/x-icon" href="https://martyzeus.github.io/images/favicon.ico">
+    <title>Alexander Martin</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .container {
-            width: 800px;
-            height: 1000px;
-            margin: 0 auto;
-            /* Center horizontally */
-            background-color: white;
-            border: 1px solid #ccc;
-        }
-
-        .header {
-            padding: 80px;
-            text-align: center;
-            background: #1abc9c;
-            color: white;
-        }
-
-        .header h1 {
-            font-size: 40px;
-        }
-
-        /* Style the top navigation bar */
-        .navbar {
-            overflow: hidden;
-            /* Hide overflow */
-            background-color: #333;
-            /* Dark background color */
-        }
-
-        /* Style the navigation bar links */
-        .navbar a {
-            float: left;
-            /* Make sure that the links stay side-by-side */
-            display: block;
-            /* Change the display to block, for responsive reasons (see below) */
-            color: white;
-            /* White text color */
-            text-align: center;
-            /* Center the text */
-            padding: 14px 20px;
-            /* Add some padding */
-            text-decoration: none;
-            /* Remove underline */
-        }
-
-        /* Right-aligned link */
-        .navbar a.right {
-            float: right;
-            /* Float a link to the right */
-        }
-
-        /* Change color on hover/mouse-over */
-        .navbar {
-            background-color: #333131;
-            /* Grey background color */
-            color: black;
-            /* Black text color */
-        }
-
-        /* Split the screen in half */
-        .split {
-            height: 100%;
-            width: 50%;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            overflow-x: hidden;
-            padding-top: 20px;
-        }
-
-        /* Control the left side */
-        .left {
-            left: 0;
-            background-color: #111;
-        }
-
-        /* Control the right side */
-        .right {
-            right: 0;
-            background-color: red;
-        }
-
-        /* If you want the content centered horizontally and vertically */
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-
-        /* Style the image inside the centered container, if needed */
-        .centered img {
-            width: 150px;
-            border-radius: 50%;
-        }
-    </style>
+    <link rel="icon" type="image/x-icon" href="https://martyzeus.github.io/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div style="container">
-        <div class="split left">
-            <div class="header">
-                <h1>Alexander Martin</h1>
-                <p>A website created by me.</p>
-            </div>
-        </div>
-
-        <div style="split right">
-            <div class="navbar">
-                <a href="https://www.linkedin.com/in/alexandermartin2024/">LinkedIn</a>
-                <a href="https://sigmapi-mst.org/">Work Examples</a>
-                <a href="#">Link</a>
-                <a href="#" class="right">Link</a>
-            </div>
-        </div>
-    </div>
+    <header class="header">
+        <h1>Alexander Martin</h1>
+        <p>A website created by me.</p>
+    </header>
+    <nav class="navbar">
+        <a href="https://www.linkedin.com/in/alexandermartin2024/">LinkedIn</a>
+        <a href="https://sigmapi-mst.org/">Work Examples</a>
+        <a href="#">Link</a>
+        <a href="#" class="right">Link</a>
+    </nav>
 </body>
 
 </html>
