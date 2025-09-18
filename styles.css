@@ -79,3 +79,22 @@ body {
     width: 150px;
     border-radius: 50%;
 }
+
+/* Ensure main content isn't covered by the fixed footer */
+.content {
+    padding: 20px;
+    padding-bottom: 70px; /* space for the footer */
+}
+
+/* Footer: full-width bar fixed to the bottom with same color as navbar */
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333; /* same as .navbar */
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    z-index: 1000;
+}
