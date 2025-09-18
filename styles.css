@@ -96,3 +96,6 @@ body {
     padding: 12px 0;
     z-index: 1000;
 }
+.footer .link {
+    text-decoration: none;
+}
