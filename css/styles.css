@@ -44,6 +44,13 @@ h2 {
   transition: background 0.3s;
 }
 
+.navbar span {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
 .navbar a:hover {
   background: #575757;
 }
@@ -91,6 +98,10 @@ h2 {
   margin: 30px;
   margin-bottom: 50px;
   font-size: 20px;
+  .link {
+    font-weight: bold;
+    color: inherit;
+  }
 }
 
 footer {
@@ -107,6 +118,6 @@ footer {
   z-index: 1000;
   .link {
     text-decoration: none;
-    color: white;
+    color: inherit;
   }
 }
