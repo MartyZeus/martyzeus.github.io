@@ -98,13 +98,12 @@ h2 {
   padding-bottom: 70px;
   padding-right: 35px;
   padding-top: 20px;
-  margin: 10px;
-  margin-bottom: 50px;
+  margin: 10px auto 50px auto;
   font-size: 20px;
-  .link {
-    font-weight: bold;
-    color: inherit;
-  }
+}
+.content .link {
+  font-weight: bold;
+  color: inherit;
 }
 
 footer {
