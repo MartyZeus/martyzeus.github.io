@@ -139,5 +139,6 @@ footer a {
 
 .footer-icon {
   height: 35px;
+  width: auto;
   vertical-align: middle;
 }
