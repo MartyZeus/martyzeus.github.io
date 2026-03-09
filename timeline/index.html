@@ -4,6 +4,7 @@
     <title>Alex Martin - Timeline</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Professional and academic timeline of Alex Martin." />
     <link
       rel="icon"
       type="image/x-icon"
@@ -19,42 +20,59 @@
 
     <nav class="navbar">
       <a href="../index.html">About Me</a>
-      <a href="../timeline/index.html">Timeline</a>
+      <a href="../timeline/index.html" class="active">Timeline</a>
       <a href="../projects/index.html">Projects</a>
     </nav>
 
     <main class="content">
       <h2>Timeline</h2>
-      <p>
-        <b>Missouri University of Science and Technology</b><br />
-        <i>Bachelor of Science</i>, Business and Management Systems<br />
-        <i>August 2018 - May 2023</i>
-      </p>
-      <p>
-        <b>Alpha-Iota Builders Association</b><br />
-        Web Administrator<br />
-        <i>January 2024 - Present</i>
-      </p>
-      <p>
-        <b
-          ><a href="milestone-marketing-solutions.html" class="link"
-            >Email Systems Administrator</a
-          ></b
-        ><br />
-        Milestone Marketing Solutions<br />
-        <i>January 2024 - Present</i>
-      </p>
-      <p>
-        <b>Maryville University of Saint Louis</b><br />
-        <i>Master of Science</i>, Data Analytics<br />
-        <i>August 2024 - Present</i>
-      </p>
-      <p>
-        <b>Miner Alumni Association</b><br />
-        Young Alumni Council Member<br />
-        <i>September 2024 - Present</i>
-      </p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">Aug 2018 &ndash; May 2023</span>
+          <div class="timeline-content">
+            <h3>Missouri University of Science and Technology</h3>
+            <p>Bachelor of Science &mdash; Business and Management Systems</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">Jan 2024 &ndash; Present</span>
+          <div class="timeline-content">
+            <h3>Alpha-Iota Builders Association</h3>
+            <p>Web Administrator</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">Jan 2024 &ndash; Present</span>
+          <div class="timeline-content">
+            <h3>
+              <a href="milestone-marketing-solutions.html" class="link"
+                >Email Systems Administrator</a
+              >
+            </h3>
+            <p>Milestone Marketing Solutions</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">Aug 2024 &ndash; Present</span>
+          <div class="timeline-content">
+            <h3>Maryville University of Saint Louis</h3>
+            <p>Master of Science &mdash; Data Analytics</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">Sep 2024 &ndash; Present</span>
+          <div class="timeline-content">
+            <h3>Miner Alumni Association</h3>
+            <p>Young Alumni Council Member</p>
+          </div>
+        </div>
+      </div>
     </main>
+
     <footer class="footer">
       <a href="https://github.com/MartyZeus/martyzeus.github.io"
         ><img
@@ -71,12 +89,3 @@
     </footer>
   </body>
 </html>
-
-<style>
-  .timeline-content {
-    padding: 20px 30px;
-    background-color: #f2f2f2;
-    position: relative;
-    border-radius: 6px;
-  }
-</style>
