@@ -8,6 +8,24 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ── Skip navigation (accessibility) ─────────────────────── */
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: #1abc9c;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -15,11 +33,7 @@ body {
   color: #333;
 }
 
-h2 {
-  margin: 0.2em 0;
-  padding: 0.2em 0;
-}
-
+h2,
 h3 {
   margin: 0.2em 0;
   padding: 0.2em 0;
