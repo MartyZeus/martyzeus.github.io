@@ -1,96 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Alex Martin - Personal Website Project</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Notes and goals for Alex Martin's personal website project." />
-    <link rel="icon" type="image/x-icon" href="https://martyzeus.github.io/images/favicons/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://martyzeus.github.io/images/favicons/favicon.ico"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
     <header class="header">
-        <h1>Personal Website</h1>
+      <h1>Personal Website</h1>
     </header>
     <nav class="navbar">
-        <a href="../index.html">About Me</a>
-        <a href="../timeline/index.html">Timeline</a>
-        <a href="../projects/index.html" class="active">Projects</a>
+      <a href="../index.html">About Me</a>
+      <a href="../timeline/index.html">Timeline</a>
+      <a href="../projects/index.html" class="active">Projects</a>
     </nav>
-    <main class="content">
-        <h2>Personal Website</h2>
-        <h3>Background</h3>
-        <p>
-            I started working on making a personal website because my role had me
-            begin using Visual Studio Code on a daily basis; I had never used a
-            traditional IDE prior and want to practice it in my personal time. Github
-            pages seemed to be an easy way for me to integrate my coding in VS
-            Code to publishing the actual website.
-        </p>
-        <h3>Set-up</h3>
-        <p>
-            I began by registering the domain <em>amartin.info</em> using Bluehost.
-            Following GitHub's documentation, I was able to add additional DNS
-            records to my domain and assign the domain to my GitHub Pages site.
-            Once I was done doing some additional research on basic webpage
-            structure, I put together the outline of my website. Most of my HTML
-            and CSS work prior to this project had been tied to email development,
-            so working with CSS classes has been a refreshing change. I decided to
-            go with a teal banner at the top of each page, a darker gray for the
-            navbar and footer, and a plain white body for content.
-        </p>
-        <h4>Goals &amp; Additions</h4>
-        <ul>
-            <li>Add images to pages: personal photos, project visualizations, or other visuals.</li>
-            <li>Clean up the stylesheet by refining classes and subclasses.</li>
-            <li>Set up a Contact Me page with an embedded form.</li>
-        </ul>
-        <h3>Timeline</h3>
-        <p>
-            Initially I had set-up the 'Timeline' section as a direct resume,
-            copying the content directly from my then resume. Thinking about it
-            further, I realized that when building a website it would be better to
-            display a timeline of my life both professionally and personally. I
-            began to pivot towards having a primary page displaying sections of
-            time, the events or experiences that took place in my life during that
-            time, and providing a link to a more in depth page about that event or
-            experience.
-        </p>
-        <h4>Goals &amp; Additions</h4>
-        <ul>
-            <li>Display timeline entries as cards for easier navigation between events.</li>
-            <li>Add an easier navigation system beyond simple scrolling.</li>
-        </ul>
-        <h3>Projects</h3>
-        <p>
-            I started this section by creating a brief list of personal projects I wanted to tackle over the
-            next several months, with a few bullet points under each summarizing the goal and planned tools.
-            I decided that having separate pages with more in-depth notes would make it easier to plan out my
-            ideas. By writing up a document for the website itself, I created a template for documenting future
-            projects.
-        </p>
-        <h4>Goals &amp; Additions</h4>
-        <ul>
-            <li>List each project with a link to its GitHub repo and tags for the languages, tools, and methodologies used.</li>
-            <li>Embed code snippets from projects directly in their detail pages.</li>
-        </ul>
-        <h2>Future Website Sections</h2>
-        <h3>Contact Me</h3>
-        <p>A basic page with my professional contact info, linkedin, and a form fill. I would like to better understand
-            managing forms and how to prevent unwanted traffic through them prior to even publishing one. As for my
-            contact information, I wanted to better understand creating an MX record for my domain and creating an email
-            inbox specifically for contacting me.</p>
-        <h3>Blog Posts</h3>
-        <p>I primarily work with Salesforce Marketing Cloud Engagement (SFMC) in my current role, it is a very powerful
-            tool but has terrible documentation on its more advanced aspects. After having read so many blog posts,
-            posting questions to forums, or basic trial and error, I have grown to enjoy learning ways to maximize the
-            customizability of the software. I would love to give back to the community by creating insightful articles
-            on SSJS design patterns, dynamic email building with AMPscript, or a programmatic deployment system. Prior
-            to working on this I would like to better understand HTML templating with an SSG and what that would require
-            to manage a
-            series of blog post webpages.</p>
+    <main id="main" class="content">
+      <p><a href="index.html" class="link">&larr; Back to Projects</a></p>
+      <h2>Personal Website</h2>
+      <h3>Background</h3>
+      <p>
+        I started working on making a personal website because my role had me
+        begin using Visual Studio Code on a daily basis; I had never used a
+        traditional IDE prior and wanted to practice it in my personal time.
+        GitHub Pages seemed to be an easy way for me to integrate my coding in
+        VS Code to publishing the actual website.
+      </p>
+      <h3>Set-up</h3>
+      <p>
+        I began by registering the domain <em>amartin.info</em> using Bluehost.
+        Following GitHub's documentation, I was able to add additional DNS
+        records to my domain and assign the domain to my GitHub Pages site.
+        Once I was done doing some additional research on basic webpage
+        structure, I put together the outline of my website. Most of my HTML
+        and CSS work prior to this project had been tied to email development,
+        so working with CSS classes has been a refreshing change. I decided to
+        go with a teal banner at the top of each page, a darker gray for the
+        navbar and footer, and a plain white body for content.
+      </p>
+      <h4>Goals &amp; Additions</h4>
+      <ul>
+        <li>Add images to pages: personal photos, project visualizations, or other visuals.</li>
+        <li>Clean up the stylesheet by refining classes and subclasses.</li>
+        <li>Set up a Contact Me page with an embedded form.</li>
+      </ul>
+      <h3>Timeline</h3>
+      <p>
+        Initially I had set-up the 'Timeline' section as a direct resume,
+        copying the content directly from my then resume. Thinking about it
+        further, I realized that when building a website it would be better to
+        display a timeline of my life both professionally and personally. I
+        began to pivot towards having a primary page displaying sections of
+        time, the events or experiences that took place in my life during that
+        time, and providing a link to a more in-depth page about that event or
+        experience.
+      </p>
+      <h4>Goals &amp; Additions</h4>
+      <ul>
+        <li>Display timeline entries as cards for easier navigation between events.</li>
+        <li>Add an easier navigation system beyond simple scrolling.</li>
+      </ul>
+      <h3>Projects</h3>
+      <p>
+        I started this section by creating a brief list of personal projects I
+        wanted to tackle over the next several months, with a few bullet points
+        under each summarizing the goal and planned tools. I decided that having
+        separate pages with more in-depth notes would make it easier to plan out
+        my ideas. By writing up a document for the website itself, I created a
+        template for documenting future projects.
+      </p>
+      <h4>Goals &amp; Additions</h4>
+      <ul>
+        <li>List each project with a link to its GitHub repo and tags for the languages, tools, and methodologies used.</li>
+        <li>Embed code snippets from projects directly in their detail pages.</li>
+      </ul>
+      <h2>Future Website Sections</h2>
+      <h3>Contact Me</h3>
+      <p>
+        A basic page with my professional contact info, LinkedIn, and a form
+        fill. I would like to better understand managing forms and how to
+        prevent unwanted traffic through them prior to even publishing one. As
+        for my contact information, I wanted to better understand creating an MX
+        record for my domain and creating an email inbox specifically for
+        contacting me.
+      </p>
+      <h3>Blog Posts</h3>
+      <p>
+        I primarily work with Salesforce Marketing Cloud Engagement (SFMC) in
+        my current role, it is a very powerful tool but has terrible
+        documentation on its more advanced aspects. After having read so many
+        blog posts, posting questions to forums, or basic trial and error, I
+        have grown to enjoy learning ways to maximize the customizability of
+        the software. I would love to give back to the community by creating
+        insightful articles on SSJS design patterns, dynamic email building
+        with AMPscript, or a programmatic deployment system. Prior to working
+        on this I would like to better understand HTML templating with an SSG
+        and what that would require to manage a series of blog post webpages.
+      </p>
     </main>
     <footer class="footer">
       <a href="https://github.com/MartyZeus/martyzeus.github.io"

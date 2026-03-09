@@ -1,6 +1,6 @@
 # martyzeus.github.io
 
-martyzeus.github.io is Alexander Martin's personal website. He is using it as a way to try to learn more about about programming, HTML/CSS in particular. Alexander is not actively looking for new work and enjoys his current role, he just likes to program outside of work too.
+martyzeus.github.io is Alexander Martin's personal website. He is using it as a way to try to learn more about programming, HTML/CSS in particular. Alexander is not actively looking for new work and enjoys his current role, he just likes to program outside of work too.
 
 ## Why Make a Website?
 
@@ -22,6 +22,6 @@ Alexander is storing any images he may need here, there will likely be more in-d
 
 This is where all the sub pages of projects will live. They will start out with a general overview file with further folders and files detailing specific aspects of the projects.
 
-### resume
+### timeline
 
-The goal of this section is for it to act more as a timeline of Alexander's career and professional life. While he is not currently looking for new work, its better to have one built and not need it, than to have to need new work and have to build it entirely from the ground up.
+The goal of this section is for it to act more as a timeline of Alexander's career and professional life. While he is not currently looking for new work, it's better to have one built and not need it, than to have to need new work and have to build it entirely from the ground up.
